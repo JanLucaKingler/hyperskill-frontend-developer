@@ -1,0 +1,39 @@
+body {
+    font-family: arial, serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+button, input {
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #007bff;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+#content {
+    width: 100%;
+    background-color: #cce5ff;
+    height: 50vw;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+#content img {
+    max-height: 90%;
+    border-radius: 10px;
+    border: 2px solid #007bff;
+}
+
+#content img, #content p {
+    align-self: center;
+}
