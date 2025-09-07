@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Hello, World!</title>
+
+</head>
+<body>
+<header>
+    <nav>
+        <div class="hamburger" id="hamburger">
+            &#9776;
+        </div>
+        <ul id="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </nav>
+    <h1>Jane Doe, <br>Front-end Developer</h1>
+</header>
+
+<section id="about">
+    <div class="about-container">
+        <img src="images/person.jpeg" alt="person">
+        <div class="about-text">
+            <h2>About me</h2>
+            <p>
+                Hi, I'm Jane Doe, I've been a junior front-end developer for 5 months now. <br>
+                For me, programming is not just a job, it's a hobby.<br>
+                I am open to new knowledge, I like to study new technologies and apply them in practice.
+                <br><br>
+                <b>Skills:</b> HTML, CSS, JS, React.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-container">
+        <div class="project">
+            <img src="images/project1.png" alt="project">
+            <p>Flashcards</p>
+            <button class="open-window" data-project="flashcards">More Info</button>
+        </div>
+        <div class="project">
+            <img src="images/project2.png" alt="project">
+            <p>Virtual Piano</p>
+            <button class="open-window" data-project="piano">More Info</button>
+        </div>
+    </div>
+    <div class="window" id="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <div id="popup-text"></div>
+        </div>
+    </div>
+</section>
+
+<section id="contacts">
+    <h2>Contacts</h2>
+    <p>You can contact me at test@gmail.com or phone number +49231321</p>
+</section>
+
+<footer>
+    <p>Das hier ist ein Footer</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
